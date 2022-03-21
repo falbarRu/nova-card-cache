@@ -1,16 +1,16 @@
 # nova-card-cache, [Packagist](https://packagist.org/packages/falbar/nova-card-cache), [Nova packages](https://novapackages.com/packages/falbar/nova-card-cache)
 
-## Установка
+## Install
 
-Для установки пакета нужно:
+Install it using composer : 
 
 ```bash
 composer require falbar/nova-card-cache
 ```
 
-## Подключение
+## Usage
 
-Подключить в `NovaServiceProvider`:
+Add the card tools to your `NovaServiceProvider`:
 
 ```php
 use Falbar\NovaCardCache\NovaCardCache;
